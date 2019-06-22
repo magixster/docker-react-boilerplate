@@ -6,4 +6,4 @@ before_install:
   - docker build -t sachinpardeshi/docker-react-boilerplate -f Dockerfile.dev .
 
 script:
-  - docker run sachinpardeshi/docker-react-boilerplate npm run test -- --coverage
+  - docker run sachinpardeshi/docker-react-boilerplate npm run test
